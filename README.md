@@ -1,3 +1,4 @@
+# Lorem-Ipsum Generator
 
 Continuing My Learning and understnading of the react Library, I completed 
 a Lorem Ipsum generator, the Lorem Ipsum content is stored in an array and it 
