@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+form {
+  margin-top: 40px;
+}
+label {
+  font-weight: bold;
+  opacity: 0.8;
+}
+input {
+  width: 50px;
+  height: 25px;
+  padding-left: 10px;
+  
+  margin-left: 10px;
+  border-radius: 3px;
+  background-color: #fff;
+  border: transparent
+}
+
+button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: blue;
+  border-radius: 4px;
+  color: #fff;
+  box-shadow: 1px 2px 5px rgba(139, 138, 138, 0.8);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: tranform 0.1s ease-in;
+}
+button:focus {
+  outline: none;
+}
+button:hover {
+  background-color: rgb(0, 174, 255);
+}
+button:active {
+  transform: scale(0.9);
+}
+.paragraph {
+  margin-top: 10px;
+  padding: 20px;
+  width: 700px;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 600px){
+  .paragraph {
+    width: 80%;
+  }
+}
